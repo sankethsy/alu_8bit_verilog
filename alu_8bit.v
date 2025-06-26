@@ -1,23 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 24.06.2025 20:59:53
-// Design Name: 
-// Module Name: alu_8bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 
 module alu_8bit(carry,result,A,B,opcode);
 input[7:0]A,B; //8_bit input
@@ -63,8 +44,7 @@ endcase
 
 
 end
-
-
+endmodule
 
 
 
@@ -78,4 +58,4 @@ end
 
 
   
-endmodule
+
