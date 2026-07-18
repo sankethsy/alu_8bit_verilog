@@ -2,12 +2,14 @@
 
 This project implements an 8-bit Arithmetic Logic Unit (ALU) using Verilog HDL. The ALU supports 16 operations, including 
 arithmetic, bitwise, shift, and comparison functionalities. The testbench is also included for simulation.
-#Features
+<br>
+# features
 
 8-bit Input Operands: A and B
 4-bit Opcode: Selects one of 16 operations
 8-bit Output: Result and carry/overflow
-#Supported Operations:
+<br>
+# Supported Operations:
 
  Opcode   Operation              Description                  
 
